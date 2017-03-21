@@ -1,0 +1,89 @@
+input,select
+{
+	margin:10px;
+}
+#discount_size
+{
+ width:70px;
+}
+#offer_name
+{
+ width:220px;
+}
+#hotel_list
+{
+ width:350px;
+}
+#return_row 
+{
+ margin-top:5px;
+}
+#return_row a
+{
+ font-size:20px;
+}
+#new_offer_link
+{
+ font-size:17px;	
+}
+#special_offer_table
+{
+ width:100%;
+ padding:10px;
+ border: 1px solid grey;
+ cursor: pointer;
+ font-size:17px;
+ margin-top:10px;
+ border-collapse: collapse;
+}
+#special_offer_table th,td
+{
+ text-align:left;
+ padding:5px;
+ border: 1px solid rgb(230,230,230);
+}
+#special_offer_table th
+{
+ background: rgb(100,120,150);
+ color: white;
+ padding:5px; 
+}
+#special_offer_table tr:hover
+{
+ background: rgb(230,230,230);
+ color: black;
+}
+#title_column
+{
+ margin-top:5px;
+}
+#table_column
+{
+ margin-top:5px;
+}
+#new_offer
+{
+ margin:20px;
+}
+.column_num
+{
+ width:6%;
+}
+.column_offer_name
+{
+ width:80%;
+}
+.column_discount
+{
+ width:15%;
+}
+@media (max-width: 768px) {
+#special_offer_table td
+{
+ text-align:center;
+}
+.box-modal 
+{
+ width: 100%;
+}
+}

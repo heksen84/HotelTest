@@ -1,0 +1,75 @@
+select
+{
+ padding:4px;
+}
+input,select
+{
+ font-size:20px;
+ border: 1px solid rgb(200,200,200);
+ border-radius:2px;
+}
+#col_special_offer_link
+{
+ margin-top:10px;
+}
+#title
+{
+ font-size:60px;
+ margin-top:100px;
+}
+#button_search
+{
+ margin:5px;
+ margin-bottom:10px;
+ font-size:22px;
+}
+#main_row
+{
+ margin-top: 7px;
+}
+#main_row a
+{
+ font-size:16px;
+}
+.date_input
+{
+ width:150px;
+}
+.short_line
+{
+ margin-top:0px;
+ margin-bottom:30px;
+ width:500px;
+}
+.small_line
+{
+ margin-top:10px;
+ width:80px;
+}
+@media (max-width: 768px) {
+input, textarea
+{
+ width:95%;
+}
+#title_column
+{
+ margin-top:-50px;
+}
+#city,#date1,#date2
+{
+ width:95%;
+}
+#title
+{
+ font-size:50px;
+ margin-top:70px;
+}
+#guests_num
+{
+ margin-top:20px;
+}
+.short_line
+{
+ width:200px;
+}
+}

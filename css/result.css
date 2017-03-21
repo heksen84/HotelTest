@@ -1,0 +1,58 @@
+#return_row 
+{
+ margin-top:5px;
+}
+#return_row a
+{
+ font-size:20px;
+}
+#results_guest_num
+{
+ font-size:20px;
+}
+#result_table
+{
+ width:100%;
+ padding:10px;
+ border: 1px solid grey;
+ cursor: pointer;
+ font-size:17px;
+ margin-top:10px;
+ border-collapse: collapse;
+}
+#result_table th,td
+{
+ text-align:left;
+ padding:5px;
+ border: 1px solid rgb(230,230,230);
+}
+#result_table th
+{
+ background: rgb(100,120,150);
+ color: white;
+ padding:5px; 
+}
+#result_table tr:hover
+{
+ background: rgb(230,230,230);
+ color: black;
+}
+.column_num
+{
+ width:6%;
+}
+.column_hotel
+{
+ width:80%;
+}
+.column_price
+{
+ width:15%;
+}
+@media (max-width: 768px) {
+#result_table td
+{
+ text-align:center;
+}
+}
+
