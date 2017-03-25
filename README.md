@@ -1,2 +1,1 @@
-# HotelTest
-# HotelTest
+web сервис для работы с отелями
